@@ -6,5 +6,6 @@ public class LABBAI3 {
         System.out.println("nhập thể tích lập phương: ");
         int a = Scanner.nextInt();
         System.out.println("thể tích lập phương= "+a+" * "+a+" * "+a+" = "+(Math.pow(a,3)));
+        
 }
 }
