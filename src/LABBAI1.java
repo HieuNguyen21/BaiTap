@@ -11,7 +11,7 @@ public class LABBAI1 {
      System.out.print("Điểm TB: "); 
       double diemTB = scanner.nextDouble(); 
       System.out.printf("%s %f điểm", hoten, diemTB); 
-          
+
     }
 
 }
