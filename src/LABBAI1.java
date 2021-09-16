@@ -13,5 +13,4 @@ public class LABBAI1 {
       System.out.printf("%s %f điểm", hoten, diemTB); 
 
     }
-
 }
