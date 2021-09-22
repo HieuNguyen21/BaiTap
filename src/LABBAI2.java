@@ -10,6 +10,5 @@ public class LABBAI2 {
         System.out.println("chu vi hcn: "+((a+b)/2));
         System.out.println("diện tích hcn:  "+(a*b));
        System.out.println("cạnh dài nhất: "+ Math.max(a, b));
-
     }
 }    
