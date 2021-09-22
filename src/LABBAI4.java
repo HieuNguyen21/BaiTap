@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class LABBAI4 {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Phuong trinh bac 2 co dang: ");

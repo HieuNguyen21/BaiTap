@@ -1,11 +1,10 @@
 package Lab2;
-
 import java.util.Scanner;
 public class bai3 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("nhap so dien su dung: ");
-        int dien = sc.nextInt();
+        int dien = scanner.nextInt();
         int tiendien;
         if (dien< 50)
         {

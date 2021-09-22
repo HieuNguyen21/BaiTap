@@ -3,14 +3,13 @@ package Lab2;
 import java.util.Scanner;
 
 public class bai1 {
-
     public static void main(String[] args)
     {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("nhap he so a: ");
-        double a = sc.nextDouble();
+        double a = scanner.nextDouble();
         System.out.print("nhap he so b: ");
-       double b = sc.nextDouble();
+       double b = scanner.nextDouble();
         if (a == 0)
         {
             System.out.println("pt vo so nghiem");
