@@ -1,4 +1,4 @@
-package lab1;
+package com.hiennn2008110163.lab1;
 import java.util.Scanner;
 
 public class LABBAI4 {

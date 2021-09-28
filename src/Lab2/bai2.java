@@ -1,5 +1,4 @@
 package Lab2;
-
 import java.util.Scanner;
 
 public interface bai2 {
@@ -16,14 +15,14 @@ public interface bai2 {
             if (delta<0) {
                 System.out.println("PT  vo nghiem");
             } else if(delta==0) {
-                double x1=x2= (-b/(2*a));
+                double x1=x2=(-b/(2*a));
                 System.out.println("PT co nghiem kep x1 = x2= " + x1);
             }
             else 
             {
                Double x1 = (float) ((-b + sqrt(delta))/(2*a));
                Double x2 = (float) ((-b - sqrt(delta))/(2*a));
-                System.out.println("PT co 2 nghiem x1 = " + x1 + "x2 = " + x2);
+            System.out.println("PT co 2 nghiem x1 = " + x1 + "x2 = " + x2);
             }
         }
     }
