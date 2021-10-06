@@ -1,7 +1,6 @@
 package com.hiennn2008110163.Lab3;
-
+import java.util.Scanner;
 public class bai1 {
-    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhap mot so bat ky: ");
