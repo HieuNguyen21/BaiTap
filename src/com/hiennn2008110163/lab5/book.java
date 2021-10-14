@@ -1,30 +1,37 @@
 package com.hiennn2008110163.lab5;
 import java.util.Scanner;
 public class book {
-    Scanner input = new Scanner(System.in);
-    int  giaban,giaxuat,soluong,namxuatban;
+    Scanner scanner = new Scanner(System.in);
+    int gianhap,giaban,soluong,namxuatban;
     String nhaxuatban,loai;
-    void nhapThongTinSach(){
-        System.out.print("Nhap the loai sach  : ");
-        loai = input.nextLine();
-        System.out.print("Nhap ten nha xuat ban cua sach : ");
-        nhaxuatban = input.nextLine();
-        System.out.print("Nhap nam xuat ban  : ");
-        namxuatban = input.nextInt();
-        System.out.print("Nhap so luong  : ");
-        soluong = input.nextInt();
-        System.out.print("Nhap gia  :");
-        giaban = input.nextInt();
+    void getGiaNhap(int x) {
+        gianhap = x;
     }
-    void showSach(){
-        System.out.println("Nha san xuat: "+nhaxuatban);
-        System.out.println("Nam xuat ban: "+namxuatban);
-        System.out.println("Loai: "+loai);
-        System.out.println("Gia nhap: "+giaban);
-        System.out.println("Gia xuat: "+giaxuat);
+    void getGiaBan(int x) {
+        giaban = x;
+    }
+    void getLoai(String type) {
+        loai = type ;
+    }
+    void getSoLuong(int x) {
+        soluong = x;
+    }
+    void getNhaXuatBan(String publisher) {
+        nhaxuatban = publisher ;
+    }
+    void getNamXuatBan(int x) {
+        namxuatban = x;
+    }
+    void bookshow() {
+        System.out.println("Nha xuat ban: "+nhaxuatban);
+        System.out.println("Nam xuat ban: "+namxuatban); 
+        System.out.println("Gia nhap: "+gianhap);
+        System.out.println("Gia ban: "+giaban);
+        System.out.println("The loai:  "+loai);
         System.out.println("So luong: "+soluong);
+
     }
-    book(int amount){
+    Book(int amount) {
         soluong = amount;
     }
-}
+

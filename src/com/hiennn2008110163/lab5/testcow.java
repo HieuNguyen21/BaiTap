@@ -1,9 +1,10 @@
 package com.hiennn2008110163.lab5;
-
+import java.util.Scanner;
 public class testcow {
     public static void main(String[] args) {
-        cow bo = new cow(2,10);
-        bo.keu();
-        bo.an();
-}
+        Cow cow = new Cow(0);
+        cow.showData();
+        cow = new Cow(1.100);
+        cow.showData();
+    }
 }
