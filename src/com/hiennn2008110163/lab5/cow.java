@@ -10,7 +10,4 @@ public class cow {
         System.out.println("tuoi: "+age);
         System.out.println("Can nang: "+weight+" Kg");
     }
-    Cow(){
-
-    }
 }

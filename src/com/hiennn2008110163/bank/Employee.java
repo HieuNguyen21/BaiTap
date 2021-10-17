@@ -5,12 +5,12 @@ public class Employee {
 	String name;
 	int salary;
 	Scanner scanner = new Scanner(System.in);	
-	String getName(){	
+	String Name(){	
 		System.out.print("Ho va ten nhan vien: ");
 		name = scanner.nextLine();
 		return name;
 	}
-	int getSalary(){
+	int Salary(){
 		System.out.print("Luong nhan vien: ");
 		salary = scanner.nextInt();
 		return salary;

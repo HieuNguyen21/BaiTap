@@ -2,16 +2,16 @@ package com.hiennn2008110163.lab5;
 public class employee {
     String name,address,bophan,ngaysinh;
     int salary;
-    void getAddress(String text){
+    void Address(String text){
         address = text;
     }
-    void getBoPhan(String text){
+    void BoPhan(String text){
         bophan = text;
     }
-    void getNgaySinh(String text){
+    void NgaySinh(String text){
         ngaysinh = text;
     }
-    void getSalary(int amount){
+    void Salary(int amount){
         salary = amount;
     }
     void showData(){
