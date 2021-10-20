@@ -4,7 +4,7 @@ public class hinhTamGiac {
     String nhac="âm thanh muốn nghe!!";
     Boolean bam =false;
     int size;
-    static int count;//thử biến cục bộ
+    static int count;
     hinhTamGiac(){
         count ++;
     }
