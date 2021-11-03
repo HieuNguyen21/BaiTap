@@ -14,5 +14,11 @@ public class TestDriver {
         suTu.makeNoise();
         Tiger ho = new Tiger();
         ho.makeNoise();
+        Feline feline =new Feline();
+        feline.makeNoise();
+        Canine canine=new Canine();
+        canine.makeNoise();
+
+        
 }
 }

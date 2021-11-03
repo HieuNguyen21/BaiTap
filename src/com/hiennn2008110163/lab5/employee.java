@@ -20,8 +20,7 @@ public class employee {
         System.out.println("Ngày sinh: "+ngaysinh);
         System.out.println("Bộ Phận: "+bophan);
         System.out.println("Lương: "+salary+"$");
-    }
-    Employee(String text){
-        name = text;
+    //Employee(String text){
+    // name = text;
     }
 }

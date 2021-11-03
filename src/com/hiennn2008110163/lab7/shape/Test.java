@@ -8,15 +8,15 @@ public class Test {
         Amoeba amoeba= new Amoeba("nhạc đang phát!!",2,4);
 
         tamGiac.play();
-        tamGiac.sound();
+        //tamGiac.sound();
 
         Tron.play();
-        Tron.sound();
+        //Tron.sound();
 
         vuong.play();
-        vuong.sound();
+        //vuong.sound();
 
         amoeba.play();
-        amoeba.sound();
+        //amoeba.sound();
 }
 }
