@@ -9,4 +9,5 @@ public class danhSach {
         for (int i = 0; i < aNguoi.size(); i++) {
         System.out.println(aNguoi);
     }
+}
     

@@ -21,3 +21,4 @@ public class hocVien extends aNguoi {
             return super.toString() + " " +diemMonhoc1 + " " + diemMonhoc2 + "Diem trung binh mon: " + diemTB();
         }
     }
+}

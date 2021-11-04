@@ -7,10 +7,11 @@ public class test {
     NhanVien nhanvien = new NhanVien("Angel",0,0);
     nhanvien.getDiaChi();
     nhanvien.getsalary();
-    KhachHang khachhang = new KhachHang(null, 0, 0);
+    KhachHang khachhang = new KhachHang(, 0, 0);
     khachhang.gettriGiaHoaDon();
-    HocVien hocvien = new HocVien(null, 0, 0, 0);
+    HocVien hocvien = new HocVien(, 0, 0, 0);
     hocvien.getdiemtrungbinh();
 }
 
+}
 }

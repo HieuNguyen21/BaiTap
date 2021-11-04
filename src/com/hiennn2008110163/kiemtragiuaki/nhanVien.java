@@ -17,3 +17,4 @@ public class nhanVien extends aNguoi {
         return("Họ Tên: " + this.hoTen + "Lương" + this.salary);
     }
 }
+}
