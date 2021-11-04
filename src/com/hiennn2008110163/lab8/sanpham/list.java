@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.ArrayList;
 public class list {
     public static void main(String[] args) {
-        ArrayList<String> sanPham = new ArrayList<String>();
+    ArrayList<String> sanPham = new ArrayList<String>();
     sanPham.add("bánh,2000 ");
     sanPham.add("coca,7000 ");
     sanPham.add("sôcola,100000 ");
