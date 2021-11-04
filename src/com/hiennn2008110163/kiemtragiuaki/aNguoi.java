@@ -1,5 +1,6 @@
 package com.hiennn2008110163.kiemtragiuaki;
 import java.util.Scanner;
+
 public class aNguoi {
     private String hoTen;
     private String diaChi;
@@ -19,15 +20,7 @@ public class aNguoi {
     public void setdiaChi(String diaChi) {
         this.diaChi = diaChi;
     }
-    public void Xuat(){
-        System.out.println("Họ Tên: "+hoTen);
-        System.out.println("Địa Chỉ : "+diaChi);
+    public String toString() {
+        return hoTen + " " + diaChi;
     }
-    protected void nhap(){
-        Scanner s = new Scanner(System.in);
-        System.out.println("Họ Tên:");
-        hoTen= s.nextLine();
-        System.out.println("Địa Chỉ: ");
-        diaChi = s.nextLine();
-}
 }

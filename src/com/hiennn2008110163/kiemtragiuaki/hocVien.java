@@ -17,4 +17,7 @@ public class hocVien extends aNguoi {
             this.diemMonhoc1 = diemMonhoc1;
             this.diemMonhoc2 = diemMonhoc2;
         }
+        public String toString() {
+            return super.toString() + " " +diemMonhoc1 + " " + diemMonhoc2 + "Diem trung binh mon: " + diemTB();
+        }
     }

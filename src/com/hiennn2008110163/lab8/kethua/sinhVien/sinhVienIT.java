@@ -5,7 +5,7 @@ public class sinhVienIT extends sinhVienGD{
     private double diemCss;
     private double diemHtml;
 
-    public sinhVienIT(String hoTen,double diemJava,double diemCss,double diemHtml){
+    public sinhVienIT(){
         super(hoTen,"IT");
         this.diemJava = diemJava;
         this.diemCss = diemCss;
