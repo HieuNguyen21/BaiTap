@@ -12,6 +12,5 @@ public class test {
     HocVien hocvien = new HocVien(null, 0, 0, 0);
     hocvien.getdiemtrungbinh();
 }
-}
 
 }
