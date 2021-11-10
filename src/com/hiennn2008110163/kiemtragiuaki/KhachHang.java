@@ -6,9 +6,9 @@ public class KhachHang extends aNguoi{
     super(hoTen, diaChi);
     this.tenCongTy =tenCongTy;
     this.triGiaHoaDon =triGiaHoaDon;
-}
 public String toString() {
     return super.toString() + " " + tenCongTy + " " + triGiaHoaDon + "Dong";
+}
 }
 
 

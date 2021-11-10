@@ -3,8 +3,8 @@ public class test1 {
 
     Employee employee = new Employee();
     employee.Salary=20;
-    employee.setBirthday = ("25/05/02");
-    employee.setName = ("Nguyễn Ngọc Hiếu");
+    employee.getBirthday = ("25/05/02");
+    employee.getName = ("Nguyễn Ngọc Hiếu");
     System.out.println(employee);
         }  
     }
